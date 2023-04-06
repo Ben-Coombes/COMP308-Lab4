@@ -12,4 +12,5 @@ module.exports = function (app) {
 
     app.get('/run', index.trainAndPredict);
 
+    app.put('/tests', index.changeTests);
 };
