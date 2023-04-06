@@ -1,0 +1,27 @@
+{
+    "name": "lab4-iris-example",
+    "version": "0.0.0",
+    "description": "Lab 4 - Iris Example",
+    "main": "server.js",
+    "author": {
+        "name": ""
+    },
+    "dependencies": {
+        "@tensorflow/tfjs": "^1.7.0",
+        "body-parser": "^1.19.0",
+        "compression": "^1.7.4",
+        "csvtojson": "^2.0.8",
+        "ejs": "^3.0.1",
+        "express": "^4.17.1",
+        "express-session": "^1.15.6",
+        "method-override": "^2.3.10",
+        "morgan": "^1.9.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.7"
+    },
+    "scripts": {
+        "start": "nodemon server",
+        "dev": "nodemon server"
+    }
+}
